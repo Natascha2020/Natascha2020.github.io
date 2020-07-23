@@ -1,0 +1,215 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h2 {
+  color: grey;
+}
+
+h3 {
+  color: darkslategray;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+h4 {
+  color: lightgrey;
+}
+
+
+#Why>h4 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#Why>ul {
+  list-style-type: none;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 35px;
+  margin: 10px auto;
+  width: 70%;
+  color: grey;
+}
+
+#How>h4 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#How>ul {
+  border-width: 0.7px;
+  border-style: solid;
+  border-color: grey;
+  list-style-type: square;
+  border-radius: 35px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 20px auto;
+  width: 50%;
+  color: grey;
+  padding: 10px 20px 10px 50px;
+}
+
+.Session {
+  margin-top: 100px;
+  float: none;
+}
+
+.IntroSession {
+  text-align: center;
+}
+
+.StartUps {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 75px;
+  justify-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.StartUps .FirstRow{
+  color: turquoise;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.StartUps .SecondRow{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+.StartUps .ThirdRow{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+.TitleBox {
+  border-bottom-style: dotted;
+  border-bottom-width: thick;
+  border-bottom-color: darkgray;
+  text-align: center;
+  color: darkgray;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+
+.Date {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.Experts {
+  border-style: dashed;
+  text-align: center;
+  border-color: darkslategray;
+  margin: 50px auto;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.Experts>h5 {
+  font-size: 14px;
+  color: darkgray;
+}
+
+.Experts>p {
+  font-style: italic;
+  font-size: 12px;;
+}
+
+.Navigate>a {
+  margin-left: 20px;
+  color: darkslategray;
+}
+
+header img {
+  width: 300px
+}
+
+.StartUps img{
+  height: 60px;
+}
+
+.ImageWhite{
+  background-color: white;
+}
+
+#SSX{
+  font-style: italic;
+}
+
+button {
+  font-size: 14px;
+  background-color: lightseagreen;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: 20px;
+} 
+
+hr {
+  color: darkslategray;
+}
+
+.Partners>p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.Name {
+  color: lightseagreen;
+}
+
+.Partner {
+  float: left;
+  height: 60px;
+  margin-left: 40px;
+  
+}
+
+.PartnerW{
+  background-color: white;
+  float: left;
+  height: 60px;
+  margin-left: 40px;
+}
+
+.Partners {
+  overflow: auto;
+  text-align: center;
+}
+
+.Inspired {
+  height: 60px;
+  float: left;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Host {
+  float: right;
+  text-align: center;
+  margin-top: 50px;
+}
