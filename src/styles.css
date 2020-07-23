@@ -170,9 +170,9 @@ main a:visited {
   font-style: italic;
 }
 
-button {
+.Watch {
   font-size: 14px;
-  background-color: lightseagreen;
+  background-color: #3f888f;
   color: black;
   font-weight: bold;
   padding-top: 10px;
@@ -181,6 +181,65 @@ button {
   border-radius: 15px;
   margin-left: 20px;
 } 
+
+#WONDA {
+  visibility: hidden;
+  color: turquoise;
+  text-align: center;
+}
+
+#MISHTOTHEWORLD {
+  visibility: hidden;
+  color: turquoise;
+  text-align: center;
+}
+
+
+#Statttour {
+  visibility: hidden;
+  color: turquoise;
+  text-align: center;
+}
+
+
+#WinnerOne {
+  font-size: 14px;
+  background-color: #3f888f;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 30px auto;
+  display: block;
+}
+
+#WinnerTwo {
+  font-size: 14px;
+  background-color: #3f888f;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 30px auto;
+  display: block;
+}
+
+#WinnerThree {
+  font-size: 14px;
+  background-color: #3f888f;
+  color: black;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 30px auto;
+  display: block;
+}
 
 .Photo {
   width: 600px;
